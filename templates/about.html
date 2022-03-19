@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8 justify-content-center about-box">
+            <div>
+                <img src="https://res.cloudinary.com/dyxe4g62g/image/upload/v1634471882/images/albums/Portfolio/189996356_227706892069676_8749899229002186314_n_i9dgs3.jpg"
+                class="rounded-circle about-image" alt="Kenan Wright" />
+                <h1>Kenan Wright</h1>
+                <h5>Full-Stack Web Developer</h5>
+                <hr>
+                <p>
+                    A thirty something web developer from South Africa living in Gothenburg, Sweden. I have a passion for all things technology and a wide range of skills including design, networking, coding, photography, management and tech support. 
+                </p>
+                <hr>
+                <ul class="list-inline footer-social-links">
+                    <li class="list-inline-item hvr-grow">
+                        <a href="https://www.linkedin.com/in/kenan-wright-bb0359b8/" target="_blank">
+                            <i class="fab fa-linkedin"><span class="footer-icon-text d-none d-xl-inline">LinkedIn</span></i>
+                            <span class="sr-only">LinkedIn</span></a>
+                    </li>
+                    <li class="list-inline-item hvr-grow">
+                        <a href="https://www.credential.net/d15b4484-df80-4de8-8c99-28d3576cbc0b#gs.dt0pqb"
+                            target="_blank">
+                            <i class="fas fa-user-graduate"><span class="footer-icon-text d-none d-xl-inline">Diploma</span></i><span
+                                class="sr-only">Diploma</span></a>
+                    </li>
+                    <li class="list-inline-item hvr-grow">
+                        <a href="{{ url_for('static', filename='files/Kenans_Resume.pdf')}}" target="_blank">
+                            <i class="fas fa-file-pdf"><span class="footer-icon-text d-none d-xl-inline">Resume</span></i><span
+                                class="sr-only">Resume</span></a>
+                    </li>
+                    <li class="list-inline-item hvr-grow">
+                        <a href="https://github.com/Kdoggg666" target="_blank">
+                            <i class="fab fa-github"><span class="footer-icon-text d-none d-xl-inline">GitHub</span></i><span
+                                class="sr-only">GitHub</span></a>
+                    </li>
+                    <li class="list-inline-item hvr-grow">
+                        <a href="mailto:kenanwright@gmail.com" target="_blank">
+                            <i class="fas fa-envelope"><span class="footer-icon-text d-none d-xl-inline">Email</span></i><span
+                                class="sr-only">Email</span></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>   
+    </div>
+</div>
+
+{% endblock %}
