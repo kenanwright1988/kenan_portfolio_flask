@@ -1,6 +1,4 @@
 import os
-from forms import ContactForm
-import pandas as pd
 from datetime import date
 from flask import (
     Flask, flash, render_template,
